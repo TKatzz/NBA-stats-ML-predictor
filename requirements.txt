@@ -1,0 +1,22 @@
+# NBA Player Performance Prediction - Requirements
+# Python 3.8+
+
+# Core data science libraries
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Machine learning
+scikit-learn>=1.0.0
+
+# Data visualization
+matplotlib>=3.4.0
+
+# NBA data API
+nba-api>=1.1.11
+
+# Optional but recommended
+seaborn>=0.11.0  # Enhanced visualizations
+jupyter>=1.0.0   # For notebooks (optional)
+
+# Web application
+streamlit>=1.28.0

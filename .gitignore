@@ -1,0 +1,66 @@
+# Data and models
+data/
+models/
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.Python
+build/
+dist/
+env/
+venv/
+ENV/
+.venv
+
+# Temporary files
+temp_*.csv
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Models
+models/*.pkl
+models/*.pickle
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.env
+secrets.yaml
+secrets.yml
+config.ini
+config.yaml
+
+# Docker
+# Note: Dockerfile, docker-compose.yml, and .dockerignore are safe to commit
+.devcontainer/
+.docker/
+
+# Logs
+*.log
+logs/
+
+# Personal/system files
+*.bak
+*.backup

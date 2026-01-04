@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  nba-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nba-stats-app
+    ports:
+      - "8501:8501"
+    volumes:
+      # Mount the project directory for live editing
+      - .:/app
+      # Persist data directory
+      - ./data:/app/data
+      # Persist models directory
+      - ./models:/app/models
+    environment:
+      - PYTHONUNBUFFERED=1
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+
