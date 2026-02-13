@@ -16,7 +16,7 @@ A Docker-powered machine learning system for predicting NBA player performance w
 ## Quick Start with Docker
 
 **Requirements:**
-- Docker & Docker Compose installed ([get Docker here](https://docs.docker.com/get-docker/))
+- Docker
 - ~500MB free disk space
 - Internet connection
 
@@ -46,11 +46,11 @@ docker-compose down
 ## Features Overview
 
 Once running, the web app lets you:
-- ✅ Select any NBA player and season
-- ✅ View historical game performance data
-- ✅ Automatically engineer ML features
-- ✅ Predict next game performance
-- ✅ Export data as CSV
+-  Select any NBA player and seasons of your choice for the data collection
+-  View historical game performance data
+-  Automatically create features for the ML model
+-  Run model and predict next game performance
+-  Export data as CSV
 
 ---
 
