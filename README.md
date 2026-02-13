@@ -2,16 +2,25 @@
 
 A Docker-powered machine learning system for predicting NBA player performance with a web interface.
 
-> 🚀 **Get started in 3 commands** - See [Quick Start](#quick-start-with-docker) below
+> 🚀 **Get started in 3 commands with docker** - See below
+
+
+<img width="1400" height="600" alt="Screenshot1" src="https://github.com/user-attachments/assets/724ccf8e-7567-4417-a547-19dce7f02426" />
+
+
+
+
+<img width="1400" height="600" alt="Screenshot3" src="https://github.com/user-attachments/assets/2872fa26-cda7-495c-b74a-28c60fb8c6f0" />
+
 
 ## Features
 
-- 📊 **Data Fetching**: Retrieve player game logs from NBA API
-- 🔧 **Feature Engineering**: Create ML-ready features from raw game data
-- 🤖 **ML Models**: Train models to predict points, rebounds, and assists
-- 🔮 **Predictions**: Predict performance for upcoming games
-- 🌐 **Web Interface**: User-friendly Streamlit web application
-- 🐳 **Docker Support**: Run everything in a containerized environment
+- **Data Fetching**: Retrieve player game logs from NBA API
+- **Feature Engineering**: Create ML-ready features from raw game data
+- **ML Models**: Train models to predict points, rebounds, and assists
+- **Predictions**: Predict performance for upcoming games
+- **Web Interface**: User-friendly Streamlit web application
+- **Docker Support**: Run everything in a containerized environment
 
 ## Quick Start with Docker
 
